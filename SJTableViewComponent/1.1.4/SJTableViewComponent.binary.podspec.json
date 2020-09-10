@@ -1,0 +1,25 @@
+{
+  "name": "SJTableViewComponent",
+  "version": "1.1.4",
+  "summary": "UITableView组件,一个cellModel对应一个cell，用模型控制cell的显示",
+  "homepage": "https://github.com/sunsunsunJunn/SJTableViewComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "孙俊": "sundream27@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/SJTableViewComponent/1.1.4/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_SJTableViewComponent_1.1.4/Headers/*",
+  "requires_arc": true,
+  "public_header_files": "bin_SJTableViewComponent_1.1.4/Headers/*.h",
+  "vendored_libraries": "bin_SJTableViewComponent_1.1.4/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
