@@ -1,0 +1,25 @@
+{
+  "name": "InputKit",
+  "version": "1.1.15",
+  "summary": "InputKit is an Elegant Kit to limits your input text in Objective-C, inspired by BlocksKit.",
+  "homepage": "https://github.com/tingxins/InputKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tingxins": "tingxins@sina.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/InputKit/1.1.15/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_InputKit_1.1.15/Headers/*",
+  "requires_arc": true,
+  "public_header_files": "bin_InputKit_1.1.15/Headers/*.h",
+  "vendored_libraries": "bin_InputKit_1.1.15/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
