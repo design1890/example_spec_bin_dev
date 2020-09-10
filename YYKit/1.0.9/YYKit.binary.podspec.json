@@ -1,0 +1,50 @@
+{
+  "name": "YYKit",
+  "summary": "A collection of iOS components.",
+  "version": "1.0.9",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ibireme": "ibireme@gmail.com"
+  },
+  "social_media_url": "http://blog.ibireme.com",
+  "homepage": "https://github.com/ibireme/YYKit",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/YYKit/1.0.9/zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "source_files": "bin_YYKit_1.0.9/Headers/*",
+  "public_header_files": "bin_YYKit_1.0.9/Headers/*.h",
+  "ios": {
+    "exclude_files": [
+      "YYKit/Base/Foundation/NSObject+YYAddForARC.{h,m}",
+      "YYKit/Base/Foundation/NSThread+YYAdd.{h,m}"
+    ],
+    "vendored_frameworks": "Vendor/WebP.framework"
+  },
+  "libraries": [
+    "z",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "CoreText",
+    "CoreGraphics",
+    "CoreImage",
+    "QuartzCore",
+    "ImageIO",
+    "AssetsLibrary",
+    "Accelerate",
+    "MobileCoreServices",
+    "SystemConfiguration"
+  ],
+  "vendored_libraries": "bin_YYKit_1.0.9/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
