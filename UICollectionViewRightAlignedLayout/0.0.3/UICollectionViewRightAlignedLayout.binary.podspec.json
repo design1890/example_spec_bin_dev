@@ -1,0 +1,27 @@
+{
+  "name": "UICollectionViewRightAlignedLayout",
+  "version": "0.0.3",
+  "summary": "A layout for UICollectionView that aligns the cells to the right.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」\n          A `UICollectionViewLayout` implementation that aligns the cells to the right.\n\nIt uses `UICollectionViewFlowLayout` under the hood.",
+  "homepage": "https://github.com/mokagio/UICollectionViewRightAlignedLayout",
+  "screenshots": "https://raw.githubusercontent.com/mokagio/UICollectionViewRightAlignedLayout/master/screenshot.png",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Giovanni Lodi": "giovanni.lodi42@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/mokagio",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/UICollectionViewRightAlignedLayout/0.0.3/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_UICollectionViewRightAlignedLayout_0.0.3/Headers/*",
+  "requires_arc": true,
+  "public_header_files": "bin_UICollectionViewRightAlignedLayout_0.0.3/Headers/*.h",
+  "vendored_libraries": "bin_UICollectionViewRightAlignedLayout_0.0.3/*.a"
+}
