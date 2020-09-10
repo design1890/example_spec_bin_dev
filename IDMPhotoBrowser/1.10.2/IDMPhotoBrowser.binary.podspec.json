@@ -1,0 +1,44 @@
+{
+  "name": "IDMPhotoBrowser",
+  "summary": "Photo Browser / Viewer inspired by Facebook's and Tweetbot's with ARC support, swipe-to-dismiss, image progress and more.",
+  "version": "1.10.2",
+  "homepage": "https://github.com/ideaismobile/IDMPhotoBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.txt"
+  },
+  "authors": {
+    "Eduardo Callado": "eduardo_tasker@hotmail.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/IDMPhotoBrowser/1.10.2/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "bin_IDMPhotoBrowser_1.10.2/Headers/*",
+  "resources": "bin_IDMPhotoBrowser_1.10.2/Resources/*",
+  "frameworks": [
+    "MessageUI",
+    "QuartzCore",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "Security"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "DACircularProgress": [
+
+    ],
+    "pop": [
+
+    ]
+  },
+  "public_header_files": "bin_IDMPhotoBrowser_1.10.2/Headers/*.h",
+  "vendored_libraries": "bin_IDMPhotoBrowser_1.10.2/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
