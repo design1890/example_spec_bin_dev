@@ -1,0 +1,23 @@
+{
+  "name": "DACircularProgress",
+  "version": "2.3.1",
+  "summary": "DACircularProgress is a UIView subclass with circular UIProgressView properties.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」\n          DACircularProgress is a UIView subclass with circular UIProgressView properties.\nIt was built to be an imitation of Facebook's photo progress indicator.",
+  "homepage": "https://github.com/danielamitay/DACircularProgress",
+  "license": "MIT",
+  "authors": {
+    "Daniel Amitay": "hello@danielamitay.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/DACircularProgress/2.3.1/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source_files": "bin_DACircularProgress_2.3.1/Headers/*",
+  "frameworks": "QuartzCore",
+  "requires_arc": true,
+  "public_header_files": "bin_DACircularProgress_2.3.1/Headers/*.h",
+  "vendored_libraries": "bin_DACircularProgress_2.3.1/*.a"
+}
