@@ -1,0 +1,21 @@
+{
+  "name": "MZAppearance",
+  "version": "1.1.6",
+  "license": "MIT",
+  "summary": "UIAppearance proxy for custom objects.",
+  "homepage": "https://github.com/m1entus/MZAppearance",
+  "authors": "Michał Zaborowski",
+  "source": {
+    "http": "http://localhost:8080/frameworks/MZAppearance/1.1.6/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_MZAppearance_1.1.6/Headers/*",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "5.0"
+  },
+  "frameworks": "QuartzCore",
+  "public_header_files": "bin_MZAppearance_1.1.6/Headers/*.h",
+  "vendored_libraries": "bin_MZAppearance_1.1.6/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
