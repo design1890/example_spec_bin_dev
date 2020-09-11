@@ -1,0 +1,26 @@
+{
+  "name": "WZLBadge",
+  "version": "1.2.6",
+  "summary": "An one-line tool to show  styles of badge for UIView",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」\n An easy tool to show different styles of UIView objects without the need for subclassing.",
+  "homepage": "https://github.com/weng1250/WZLBadge",
+  "license": {
+    "type": "None",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zilin Weng翁子林": "719113951@qq.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/WZLBadge/1.2.6/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "requires_arc": true,
+  "source_files": "bin_WZLBadge_1.2.6/Headers/*",
+  "public_header_files": "bin_WZLBadge_1.2.6/Headers/*.h",
+  "frameworks": "UIKit",
+  "vendored_libraries": "bin_WZLBadge_1.2.6/*.a"
+}
